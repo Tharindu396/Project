@@ -1,0 +1,64 @@
+/* Form.css */
+.cul{
+    background-color: #f8ecdc;
+    backdrop-filter: blur(100px); 
+}
+.recipe-form {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-form input[type="text"],
+.recipe-form input[type="number"],
+.recipe-form textarea,
+.recipe-form select {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.recipe-title {
+    font-size: 2.5em;
+    text-align: center;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+}
+
+.recipe-form .addbutton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+.recipe-form .addbutton:hover {
+    background-color: #45a049;
+}
+.recipe-form .remove-button{
+    background-color: #ec2c01e3;
+    color: white;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-left: 10px;
+    
+}
+.recipe-form .remove-button:hover {
+    background-color: #d6310c;
+}
+.ing{
+    display: flex;
+}

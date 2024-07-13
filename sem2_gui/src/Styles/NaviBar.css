@@ -1,0 +1,22 @@
+.Container{
+    background-color: #e5715f;
+    height: 5.5rem;
+    
+}
+.Container .logo{
+    height: 4em;
+    width: 6rem;
+}
+.Container .g{
+    margin-left: 1rem;
+}
+@media (max-width: 767px) {
+    .navbar-nav .nav-item {
+      margin-left: 0;
+    }
+  
+    .navbar-text {
+      font-size: 0.9rem;
+      text-align: center;
+    }
+  }
